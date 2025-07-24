@@ -1,0 +1,132 @@
+{
+    "0": {
+        "texts": [
+            "2nd year",
+            "software engineer",
+            "computer science",
+            "web developer",
+            "need advice",
+            "front end",
+            "programming language",
+            "web dev",
+            "web development",
+            "html css"
+        ],
+        "frequencies": [
+            91,
+            107,
+            111,
+            120,
+            123,
+            139,
+            182,
+            227,
+            288,
+            304
+        ]
+    },
+    "1": {
+        "texts": [
+            "year student",
+            "fresh grad",
+            "software engineer",
+            "2nd year",
+            "3rd year",
+            "web development",
+            "career path",
+            "computer engineering",
+            "data science",
+            "computer science"
+        ],
+        "frequencies": [
+            109,
+            112,
+            114,
+            121,
+            123,
+            128,
+            132,
+            148,
+            264,
+            552
+        ]
+    },
+    "2": {
+        "texts": [
+            "full time",
+            "entry level",
+            "tech stack",
+            "software engineer",
+            "need advice",
+            "final interview",
+            "technical interview",
+            "current company",
+            "fresh grad",
+            "job offer"
+        ],
+        "frequencies": [
+            121,
+            151,
+            153,
+            156,
+            158,
+            184,
+            222,
+            223,
+            367,
+            378
+        ]
+    },
+    "3": {
+        "texts": [
+            "full stack",
+            "front end",
+            "html css",
+            "thanks advance",
+            "capstone project",
+            "web dev",
+            "web development",
+            "mobile app",
+            "tech stack",
+            "web app"
+        ],
+        "frequencies": [
+            66,
+            69,
+            72,
+            74,
+            78,
+            80,
+            83,
+            84,
+            84,
+            109
+        ]
+    },
+    "4": {
+        "texts": [
+            "need advice",
+            "front end",
+            "career path",
+            "entry level",
+            "tech stack",
+            "web development",
+            "web developer",
+            "full stack",
+            "web dev",
+            "software engineer"
+        ],
+        "frequencies": [
+            189,
+            191,
+            202,
+            209,
+            234,
+            266,
+            269,
+            284,
+            369,
+            374
+        ]
+    }
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+@font-face {
+    font-family: 'ProtoMono';
+    src: url('fonts/ProtoMono/ProtoMono-Regular.woff2') format('woff2'),
+            url('fonts/ProtoMono/ProtoMono-Regular.woff') format('woff'),
+            url('fonts/ProtoMono/ProtoMono-Regular.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+:root {
+    --color-primary: #B1B1A9;
+    --color-secondary: #506384;
+    --color-primary-main-bg: #100F14;
+    --color-primary-card-bg: #1F1F21;
+    --color-primary-text: #E6E7DF;
+    --color-primary-fill-color: rgba(80, 99, 132, 0.3);
+    --text-opacity: .75;
+    --text-size-section: 1.5rem;
+    --text-size-header-label: .75rem;
+    --text-size-header-value: 1rem;
+    --text-size-metric-label: .75rem;
+    --text-size-metric-value: 1.5rem;
+    --text-size-figure-number: .75rem;
+    --text-size-chart-title: 1rem;
+    --text-size-description: .85rem;
+    --height-ngrams-cluster: 300px;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-primary-main-bg);
+    font-family: 'ProtoMono', 'Courier New', monospace;
+    color: var(--color-primary-text);
+    overflow-x: hidden;
+}
+.section-title {
+    color: var(--color-primary-text);
+    font-size: 1.5rem;
+}
+.text-description {
+    color: var(--color-primary-text);
+    opacity: var(--text-opacity);
+    font-size: var(--text-size-description);
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.5;
+}
+.dashboard-container {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.chart-card {
+    background: var(--color-primary-card-bg);
+    padding: 1rem;
+    position: relative;
+    height: fit-content;
+    min-height: 300px;
+}
+.chart-title {
+    font-size: var(--text-size-chart-title);
+    color: #F1F0E1;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+.figure-number {
+    position: absolute;
+    bottom: .75rem;
+    right: .75rem;
+    font-size: var(--text-size-figure-number);
+    color: var(--color-primary-text);
+    opacity: .75;
+}
+@media (max-width: 480px) {
+    .section-title {
+        font-size: 1.25rem;
+    }
+    .dashboard-container {
+        margin: .5rem;
+        gap: .5rem;
+    }
+    .chart-card {
+        padding: .5rem;
+    }
+    .chart-title {
+        margin-bottom: .5rem;
+    }
+}

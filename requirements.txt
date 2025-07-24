@@ -1,0 +1,7 @@
+dash
+pandas
+numpy
+scikit-learn
+wordcloud
+plotly
+requests

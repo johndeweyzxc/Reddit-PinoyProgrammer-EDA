@@ -1,0 +1,55 @@
+.ngrams-cluster {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+.ngrams-cluster .charts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+    justify-content: flex-start;
+}
+.ngrams-cluster .chart {
+    background: var(--color-primary-card-bg);
+    padding: 1rem;
+    position: relative;
+    height: fit-content;
+    min-height: var(--height-ngrams-cluster);
+    /* 2 items per row on wide screens */
+    flex: 1 1 calc(33.333% - 0.67rem); 
+    min-width: var(--height-ngrams-cluster);
+    max-width: calc(33.333% - 0.67rem);
+}
+@media (max-width: 1200px) {
+    .ngrams-cluster .chart {
+        flex: 1 1 calc(33.333% - 0.67rem);
+        max-width: calc(33.333% - 0.67rem);
+    }
+}
+@media (max-width: 915px) {
+    .ngrams-cluster .charts {
+        flex-direction: column;
+    }
+    .ngrams-cluster .chart {
+        flex: 1 1 100%;
+        max-width: 100%;
+        min-width: unset;
+    }
+}
+@media (max-width: 768px) {
+    .ngrams-cluster .charts {
+        flex-direction: column;
+    }
+    .ngrams-cluster .chart {
+        flex: 1 1 100%;
+        max-width: 100%;
+        min-width: unset;
+    }
+}
+@media (max-width: 480px) {
+    .ngrams-cluster .charts {
+        gap: 0.5rem;
+    }
+}

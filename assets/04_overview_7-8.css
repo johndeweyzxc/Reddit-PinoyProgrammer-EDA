@@ -1,0 +1,22 @@
+.overview-chart-timeseries {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+.overview-chart-timeseries > * {
+    flex: 1;
+    min-width: 0;
+}
+@media (max-width: 768px) {
+    .overview-chart-timeseries {
+        flex-direction: column;
+    }
+    .overview-chart-timeseries > * {
+        flex: 1;
+    }
+}
+@media (max-width: 480px) {
+    .overview-chart-timeseries {
+        gap: .5rem;
+    }
+}
