@@ -1,0 +1,40 @@
+.footer {
+    margin: var(--app-margin);
+    padding-top: var(--app-padding);
+    padding-bottom: var(--app-padding);
+    display: flex;
+    gap: 4rem;
+    color: var(--color-primary-text);
+}
+.footer-title {
+    font-family: 'ProtoMono', 'Courier New', monospace;
+}
+.footer-subtitle {
+    color: var(--color-secondary-text);
+    font-size: var(--app-font-subtext);
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 1px;
+    opacity: .85;
+}
+.footer-links {
+    color: var(--color-secondary-text);
+    font-size: var(--app-font-subtext);
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 1px;
+    opacity: .85;
+}
+.footer-links:hover {
+    color: var(--color-primary-text);
+    opacity: 1;
+}
+.footer-connect-with-me {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+@media (max-width: 1200px) {
+    .footer {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

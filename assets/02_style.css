@@ -1,13 +1,14 @@
 .keywords {
+    margin-top: var(--app-margin);
     display: flex;
-    gap: 1rem;
+    gap: var(--app-gap);
     font-family: 'Roboto Mono', monospace;
     max-height: 300px;
     overflow-y: auto;
 }
 .keywords .card {
     background-color: var(--color-primary-card-bg);
-    padding: 1rem;
+    padding: var(--app-padding);
     min-width: 140px;
     flex: 1 1 calc(33.33% - 1rem);
     box-sizing: border-box
